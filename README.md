@@ -1,13 +1,37 @@
-# defne.akman.repo.sabanci
+# DSA210 Project - The Impact of the Academic Calendar and Physical Activity on Personal Biochemistry
 
-# The Impact of the Academic Calendar and Physical Activity on Personal Biochemistry
+## Project Motivation
+This project investigates whether physical activity levels and academic stress periods are associated with changes in personal blood biomarkers.
 
-  I am an individual who regularly checks in on her blood data at random times when I feel something is off. The motivation of this project is to analyze the effect of physical activity (daily steps counted by Apple Health) and the academic calendar (stress during finals weeks vs. stress-free periods during holidays) on personal blood chemistry data (e-nabız).
+## Data Sources
+- Personal blood test results collected from e-Nabız
+- Daily step count data exported from Apple Health
+- Sabancı University academic calendar data from 2022 to 2026
 
-  Biochemical data will be retrieved from e-nabız for the last 4 years, and specific parameters will be manually extracted into an Excel format. Personal physical activity data, specifically daily step counts, will be collected from the Apple Health App. The Sabancı University academic calendar will be used to label “finals weeks” as binary 1 and “holiday weeks” as binary 0 to serve as a stress indicator. Data visualization and correlation analysis will be conducted.
+## Repository Structure
+- `data/raw/`: raw source files
+- `data/processed/`: cleaned datasets
+- `src/`: preprocessing scripts
+- `notebooks/`: main analysis notebook
+- `outputs/`: generated figures
 
-  The dataset between 2022-2026 includes 20 different blood tests. The following metabolic parameters will be used: LDL Cholesterol, HDL Cholesterol, Total Cholesterol (Serum/Plasma), Triglycerides, and Fasting Glucose. Weekly average steps will be extracted from the Apple Health app. Important Dates of Sabanci University Academic Calendar:
-•	29-30 Sept 2022: Lecture registration days
-•	03 Oct 2022: Lectures start
-•	07-20 Jan 2023: Finals week
-•	20 Jan – 20 Feb 2023: Semester holiday
+## Methods
+- Data cleaning and preprocessing
+- Academic period labeling
+- Exploratory Data Analysis
+- Hypothesis testing
+- Correlation analysis
+
+## How to Run
+1. Install dependencies from `requirements.txt`
+2. Run preprocessing scripts in `src/`
+3. Open the notebook in `notebooks/`
+
+## Limitations
+- Small sample size
+- Irregular blood test timing
+- Personal observational dataset
+- Finals-period blood measurements are limited
+
+## AI Assistance Disclosure
+AI tools were used for debugging, code structuring, and explanation support. All final decisions, interpretations, and submitted material were reviewed and finalized by the student.
