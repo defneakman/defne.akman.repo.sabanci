@@ -33,5 +33,17 @@ This project investigates whether physical activity levels and academic stress p
 - Personal observational dataset
 - Finals-period blood measurements are limited
 
-## AI Assistance Disclosure
-AI tools were used for debugging, code structuring, and explanation support. All final decisions, interpretations, and submitted material were reviewed and finalized by the student.
+## AI Usage Disclosure (Detailed)
+This project utilizes AI assistance (Claude/Gemini) as permitted by the course guidelines. Below is the documentation of the AI interaction:
+
+**Prompt Used:**
+> "this is my project guideline. 'The Impact of the Academic Calendar and Physical Activity on Personal Biochemistry...' [Your full prompt here] ... guide me through what you can do"
+
+**AI Contributions:**
+- **Code Structuring:** Assisted in writing the Mann-Whitney U test loops and Pearson correlation logic.
+- **Data Preprocessing:** Provided templates for handling date-time conversions and rolling averages for step data.
+- **Documentation:** Helped in formatting the README.md and structuring the academic calendar windows.
+- **EDA Support:** Suggested visualization techniques for comparing finals vs. holiday periods.
+
+**Human Oversight:**
+All AI-generated code was manually reviewed, debugged, and integrated into the final .ipynb by the student. All interpretations of p-values and findings were written by the student based on the analysis results.
