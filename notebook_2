@@ -1,0 +1,5 @@
+Dataset Adjustment Note
+
+The original ML plan expected a larger biomarker dataset with variables such as CRP, TSH, Ferritin, WBC, Hemoglobin, Creatinine, and Uric Acid. However, the current processed dataset contains 9 blood test observations and 7 usable numerical features: LDL, HDL, Total Cholesterol, Triglycerides, Fasting Glucose, 14-day average steps, and 28-day average steps.
+
+Therefore, the ML analysis was adapted to the available dataset. PCA and K-Means were used for exploratory pattern discovery, while Logistic Regression and Decision Tree models were evaluated with Leave-One-Out Cross Validation due to the very small sample size.
