@@ -1,6 +1,8 @@
-**Milestones:** April 14, 2026 — Data Collection, EDA & Hypothesis Testing  
-**Updated for:** May 5, 2026 — Machine Learning Methods
-
+**Milestones:** 
+April 14, 2026 — Data Collection, EDA & Hypothesis Testing  
+May 5, 2026 — Machine Learning Methods
+**Updated for:**
+18 May, 22:00: Final report and code submission
 ## Updated Notebook
 
 The updated notebook for the May 5 machine learning milestone is available here:
