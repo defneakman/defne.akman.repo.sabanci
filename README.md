@@ -44,7 +44,8 @@ The ML analysis included:
 - Random Forest feature importance analysis to identify the most informative variables.
 - Time-lag analysis using 14-day and 28-day average step count features.
 
-The available numerical features were LDL, HDL, Total Cholesterol, Triglycerides, Fasting Glucose, 14-day average steps, and 28-day average steps. Because of the small sample size, the results are interpreted as exploratory and not as clinically or causally conclusive.
+13 features were used: 12 blood biomarkers (LDL, HDL, Total Cholesterol, Triglycerides, Glucose, CRP, TSH, Ferritin, WBC, Hemoglobin, Creatinine, Uric Acid) plus 14-day average step count. Features were z-score standardised; missing values imputed with column medians. The revised final notebook is at: notebooks/DSA210_FinalML_defneakman_1.ipynb
+
 ## AI Usage Disclosure (Detailed)
 This project utilizes AI assistance (Claude/Gemini) as permitted by the course guidelines. Below is the documentation of the AI interaction:
 
