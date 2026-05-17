@@ -53,12 +53,10 @@ This project utilizes AI assistance (Claude/Gemini) as permitted by the course g
 > "this is my project guideline. 'The Impact of the Academic Calendar and Physical Activity on Personal Biochemistry...' guide me through what you can do"
 
 **AI Contributions:**
-- **Code Structuring:** Assisted in writing the Mann-Whitney U test loops and Pearson correlation logic.
-- **Data Preprocessing:** Provided templates for handling date-time conversions and rolling averages for step data.
-- **Documentation:** Helped in formatting the README.md and structuring the academic calendar windows.
-- **EDA Support:** Suggested visualization techniques for comparing finals vs. holiday periods.
+I used Claude (Anthropic) as an AI assistant throughout this project, as permitted by DSA 210 guidelines.
+**My contributions:**
+The core of this project is entirely mine. I designed the research question from personal curiosity about my own health patterns over four years of university. I collected all data myself — retrieving blood test records from e-Nabız across 12 sessions spanning 2022–2025, exporting my Apple Health data, and manually cross-referencing the Sabancı University academic calendar. I defined the stress labelling system (0–3) based on my own lived academic experience, including failed courses, repeated semesters, and internship overlap — context that no external tool could know. I verified every biological interpretation against my personal health history and made all decisions about which findings were meaningful.
+**AI assistance:**
+Claude helped with the technical implementation: parsing the Apple Health XML, structuring the dataset, writing analysis and ML code, and formatting the report. All data values, stress labels, research framing, and interpretations are my own.
 
-**Human Oversight:**
-All AI-generated code was manually reviewed, debugged, and integrated into the final .ipynb by the student. All interpretations of p-values and findings were written by the student based on the analysis results.
-
-**The updated notebook for the 5 May ML milestone is available here: notebooks/DSA210_Defne_Akman_(2) (1).ipynb**
+**The updated notebook for the 18 May ML milestone is available here: **
