@@ -48,15 +48,11 @@ The ML analysis included:
 
 ## AI Usage Disclosure (Detailed)
 This project utilizes AI assistance (Claude/Gemini) as permitted by the course guidelines. Below is the documentation of the AI interaction:
-
 **Prompt Used:**
 > "this is my project guideline. 'The Impact of the Academic Calendar and Physical Activity on Personal Biochemistry...' guide me through what you can do"
-
-**AI Contributions:**
-I used Claude (Anthropic) as an AI assistant throughout this project, as permitted by DSA 210 guidelines.
 **My contributions:**
-The core of this project is entirely mine. I designed the research question from personal curiosity about my own health patterns over four years of university. I collected all data myself — retrieving blood test records from e-Nabız across 12 sessions spanning 2022–2025, exporting my Apple Health data, and manually cross-referencing the Sabancı University academic calendar. I defined the stress labelling system (0–3) based on my own lived academic experience, including failed courses, repeated semesters, and internship overlap — context that no external tool could know. I verified every biological interpretation against my personal health history and made all decisions about which findings were meaningful.
+The core and idea of this project is entirely mine. I designed the research question from personal curiosity about my own health patterns over four years of university. I collected all data myself — retrieving blood test records from e-Nabız across 12 sessions spanning 2022–2025, exporting my Apple Health data, and manually cross-referencing the Sabancı University academic calendar. I defined the stress labelling system (0–3) based on my own lived academic experience, including failed courses, repeated semesters, and internship overlap — context that no external tool could know. I verified every biological interpretation against my personal health history and made all decisions about which findings were meaningful.
 **AI assistance:**
 Claude helped with the technical implementation: parsing the Apple Health XML, structuring the dataset, writing analysis and ML code, and formatting the report. All data values, stress labels, research framing, and interpretations are my own.
 
-**The updated notebook for the 18 May ML milestone is available here: **
+**The updated notebook for the 18 May ML milestone is available here: notebooks/DSA210_FinalML_defneakman_1.ipynb**
